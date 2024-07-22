@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const APP_ID = process.env.REACT_APP_OPEN_WEATHER_MAP_API_ID;
 const APP_KEY = process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY;
-const BASE_URL = 'https://api.edamam.com/search';
+const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://api.edamam.com/search';
 
 export const fetchRecipes = async(query) => {
   try {
